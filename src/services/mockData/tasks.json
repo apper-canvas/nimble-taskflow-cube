@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "title": "Review quarterly sales report",
+    "description": "Analyze Q3 performance metrics and prepare summary for stakeholders",
+    "category": "Work",
+    "priority": "High",
+    "dueDate": "2024-01-15",
+    "completed": false,
+    "createdAt": "2024-01-10T09:00:00Z",
+    "order": 0
+  },
+  {
+    "id": "2",
+    "title": "Plan weekend hiking trip",
+    "description": "Research trails, check weather, and pack hiking gear",
+    "category": "Personal",
+    "priority": "Medium",
+    "dueDate": "2024-01-12",
+    "completed": false,
+    "createdAt": "2024-01-10T10:30:00Z",
+    "order": 1
+  },
+  {
+    "id": "3",
+    "title": "Buy groceries for dinner party",
+    "description": "Get ingredients for Italian menu: pasta, wine, dessert items",
+    "category": "Shopping",
+    "priority": "High",
+    "dueDate": "2024-01-11",
+    "completed": false,
+    "createdAt": "1/10/2024 2:15:00 PMZ",
+    "order": 2
+  },
+  {
+    "id": "4",
+    "title": "Update portfolio website",
+    "description": "Add recent projects and refresh design elements",
+    "category": "Work",
+    "priority": "Medium",
+    "dueDate": "2024-01-20",
+    "completed": true,
+    "createdAt": "2024-01-08T16:45:00Z",
+    "order": 3
+  },
+  {
+    "id": "5",
+    "title": "Schedule dentist appointment",
+    "description": "Book routine cleaning and checkup for next month",
+    "category": "Personal",
+    "priority": "Low",
+    "dueDate": "2024-01-25",
+    "completed": false,
+    "createdAt": "2024-01-09T11:20:00Z",
+    "order": 4
+  }
+]
