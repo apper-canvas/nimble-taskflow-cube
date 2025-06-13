@@ -79,10 +79,10 @@ const TaskModal = ({
       let savedTask
       
       if (isEditing) {
-        savedTask = await taskService.update(task.id, formData)
+savedTask = await taskService.update(task.id, formData)
         toast.success('Task updated successfully!')
       } else {
-        savedTask = await taskService.create(formData)
+savedTask = await taskService.create(formData)
         toast.success('Task created successfully!')
       }
       
@@ -103,7 +103,7 @@ const TaskModal = ({
     setLoading(true)
     
     try {
-      await taskService.delete(task.id)
+await taskService.delete(task.id)
       toast.success('Task deleted successfully!')
       onSave(null, 'delete')
       onClose()

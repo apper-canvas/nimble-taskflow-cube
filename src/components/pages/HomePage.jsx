@@ -29,7 +29,7 @@ const HomePage = () => {
     setError(null)
     
     try {
-      const [tasksData, categoriesData] = await Promise.all([
+const [tasksData, categoriesData] = await Promise.all([
         taskService.getAll(),
         categoryService.getAll()
       ])
@@ -79,7 +79,7 @@ const HomePage = () => {
   const handleEditTask = (task) => {
     setEditingTask(task)
     setIsTaskModalOpen(true)
-  }
+savedTask = await taskService.update(task.id, formData)
 
   const handleTaskSave = (savedTask, action = 'save') => {
     if (action === 'delete') {
@@ -103,7 +103,7 @@ const HomePage = () => {
         const newTasks = [...prevTasks, savedTask]
         updateCategoryTaskCounts(newTasks, categories)
         return newTasks
-      })
+await taskService.delete(task.id)
     }
   }
 
@@ -121,7 +121,7 @@ const HomePage = () => {
     setTasks(reorderedTasks)
     
     try {
-      await taskService.reorder(reorderedTasks)
+await taskService.reorder(reorderedTasks)
     } catch (error) {
       toast.error('Failed to save task order')
       // Reload to get correct order

@@ -29,7 +29,7 @@ const TaskCard = ({ task, onUpdate, onEdit }) => {
     setIsCompleting(true)
     
     try {
-      const updatedTask = await taskService.update(task.id, {
+const updatedTask = await taskService.update(task.id, {
         completed: !task.completed
       })
       
