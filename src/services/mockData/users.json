@@ -1,0 +1,167 @@
+[
+  {
+    "Id": 1,
+    "Name": "John Smith",
+    "email": "john.smith@company.com",
+    "phone": "+1-555-0101",
+    "role": "Manager",
+    "department": "Engineering",
+    "status": "Active",
+    "joinDate": "2023-01-15",
+    "lastLogin": "2024-01-15T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "Name": "Sarah Johnson",
+    "email": "sarah.johnson@company.com",
+    "phone": "+1-555-0102",
+    "role": "Developer",
+    "department": "Engineering",
+    "status": "Active",
+    "joinDate": "2023-03-20",
+    "lastLogin": "2024-01-14T16:45:00Z"
+  },
+  {
+    "Id": 3,
+    "Name": "Michael Brown",
+    "email": "michael.brown@company.com",
+    "phone": "+1-555-0103",
+    "role": "Designer",
+    "department": "Design",
+    "status": "Active",
+    "joinDate": "2023-02-10",
+    "lastLogin": "2024-01-14T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "Name": "Emily Davis",
+    "email": "emily.davis@company.com",
+    "phone": "+1-555-0104",
+    "role": "Product Manager",
+    "department": "Product",
+    "status": "Active",
+    "joinDate": "2022-11-05",
+    "lastLogin": "2024-01-15T14:20:00Z"
+  },
+  {
+    "Id": 5,
+    "Name": "David Wilson",
+    "email": "david.wilson@company.com",
+    "phone": "+1-555-0105",
+    "role": "QA Engineer",
+    "department": "Quality Assurance",
+    "status": "Active",
+    "joinDate": "2023-04-12",
+    "lastLogin": "2024-01-13T11:30:00Z"
+  },
+  {
+    "Id": 6,
+    "Name": "Lisa Garcia",
+    "email": "lisa.garcia@company.com",
+    "phone": "+1-555-0106",
+    "role": "HR Specialist",
+    "department": "Human Resources",
+    "status": "Active",
+    "joinDate": "2023-01-30",
+    "lastLogin": "2024-01-15T08:45:00Z"
+  },
+  {
+    "Id": 7,
+    "Name": "Robert Taylor",
+    "email": "robert.taylor@company.com",
+    "phone": "+1-555-0107",
+    "role": "Sales Representative",
+    "department": "Sales",
+    "status": "Active",
+    "joinDate": "2023-05-18",
+    "lastLogin": "2024-01-14T13:10:00Z"
+  },
+  {
+    "Id": 8,
+    "Name": "Jennifer Martinez",
+    "email": "jennifer.martinez@company.com",
+    "phone": "+1-555-0108",
+    "role": "Marketing Coordinator",
+    "department": "Marketing",
+    "status": "Active",
+    "joinDate": "2023-06-22",
+    "lastLogin": "2024-01-15T15:25:00Z"
+  },
+  {
+    "Id": 9,
+    "Name": "Christopher Anderson",
+    "email": "christopher.anderson@company.com",
+    "phone": "+1-555-0109",
+    "role": "Operations Manager",
+    "department": "Operations",
+    "status": "Active",
+    "joinDate": "2022-09-14",
+    "lastLogin": "2024-01-14T10:55:00Z"
+  },
+  {
+    "Id": 10,
+    "Name": "Amanda White",
+    "email": "amanda.white@company.com",
+    "phone": "+1-555-0110",
+    "role": "Business Analyst",
+    "department": "Business Intelligence",
+    "status": "Active",
+    "joinDate": "2023-07-08",
+    "lastLogin": "2024-01-15T12:40:00Z"
+  },
+  {
+    "Id": 11,
+    "Name": "Kevin Thompson",
+    "email": "kevin.thompson@company.com",
+    "phone": "+1-555-0111",
+    "role": "Senior Developer",
+    "department": "Engineering",
+    "status": "Inactive",
+    "joinDate": "2022-12-01",
+    "lastLogin": "2023-12-20T17:30:00Z"
+  },
+  {
+    "Id": 12,
+    "Name": "Michelle Lee",
+    "email": "michelle.lee@company.com",
+    "phone": "+1-555-0112",
+    "role": "UX Designer",
+    "department": "Design",
+    "status": "Active",
+    "joinDate": "2023-08-15",
+    "lastLogin": "2024-01-14T14:15:00Z"
+  },
+  {
+    "Id": 13,
+    "Name": "Daniel Clark",
+    "email": "daniel.clark@company.com",
+    "phone": "+1-555-0113",
+    "role": "DevOps Engineer",
+    "department": "Engineering",
+    "status": "Active",
+    "joinDate": "2023-03-28",
+    "lastLogin": "2024-01-15T09:30:00Z"
+  },
+  {
+    "Id": 14,
+    "Name": "Rachel Rodriguez",
+    "email": "rachel.rodriguez@company.com",
+    "phone": "+1-555-0114",
+    "role": "Content Writer",
+    "department": "Marketing",
+    "status": "Active",
+    "joinDate": "2023-09-10",
+    "lastLogin": "2024-01-14T11:45:00Z"
+  },
+  {
+    "Id": 15,
+    "Name": "James Lewis",
+    "email": "james.lewis@company.com",
+    "phone": "+1-555-0115",
+    "role": "Finance Manager",
+    "department": "Finance",
+    "status": "Active",
+    "joinDate": "2022-10-03",
+    "lastLogin": "2024-01-15T13:20:00Z"
+  }
+]
