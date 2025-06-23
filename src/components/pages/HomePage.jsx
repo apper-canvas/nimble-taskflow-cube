@@ -76,10 +76,10 @@ const [tasksData, categoriesData] = await Promise.all([
     setIsTaskModalOpen(true)
   }
 
-  const handleEditTask = (task) => {
+const handleEditTask = (task) => {
     setEditingTask(task)
     setIsTaskModalOpen(true)
-savedTask = await taskService.update(task.id, formData)
+  }
 
   const handleTaskSave = (savedTask, action = 'save') => {
     if (action === 'delete') {
@@ -103,7 +103,7 @@ savedTask = await taskService.update(task.id, formData)
         const newTasks = [...prevTasks, savedTask]
         updateCategoryTaskCounts(newTasks, categories)
         return newTasks
-await taskService.delete(task.id)
+})
     }
   }
 
